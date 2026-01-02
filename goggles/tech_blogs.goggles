@@ -5,6 +5,7 @@
 ! avatar: #16a34a
 
 $discard
+$downrank,site=medium.com
 
 $boost=5,site=who.int
 $boost=5,site=cdc.gov
