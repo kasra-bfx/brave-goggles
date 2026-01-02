@@ -9,10 +9,3 @@ $boost=5,site=who.int
 $boost=5,site=cdc.gov
 $boost=5,site=ema.europa.eu
 $boost=5,site=nhs.uk
-
-! --- Government health pages (US, CA, etc.) ---
-$boost=5,site=gov        # US .gov
-$boost=5,site=gc.ca      # Government of Canada domains
-$boost=4,site=canada.ca  # Many Canadian health pages live here
-$boost=4,site=health.gov.au
-$boost=4,site=health.govt.nz
