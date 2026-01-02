@@ -8,7 +8,4 @@ $discard
 $downrank,site=medium.com
 
 ! --- Strong boosts: core public health sites ---
-$boost=5,site=who.int
-$boost=5,site=cdc.gov
-$boost=5,site=ema.europa.eu
-$boost=5,site=nhs.uk
+$boost=5,site=fda.gov
