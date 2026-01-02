@@ -1,0 +1,28 @@
+! name: Health - Official Sources
+! description: Boosts official government and major public health orgs for health-related searches.
+! public: true
+! author: Kasra Darvishi
+! avatar: #16a34a
+
+! --- Strong boosts: core public health sites ---
+$boost=5,site=who.int
+$boost=5,site=cdc.gov
+$boost=5,site=ema.europa.eu
+$boost=5,site=nhs.uk
+
+! --- Government health pages (US, CA, etc.) ---
+$boost=5,site=gov        # US .gov
+$boost=5,site=gc.ca      # Government of Canada domains
+$boost=4,site=canada.ca  # Many Canadian health pages live here
+$boost=4,site=health.gov.au
+$boost=4,site=health.govt.nz
+
+! Example: boost paths that clearly look like health sections on gov sites
+/health*$boost=2,site=gov
+/public-health*$boost=2,site=gov
+
+! --- Slightly downrank generic blogs & content farms ---
+$downrank=2,site=medium.com
+$downrank=2,site=substack.com
+$downrank=2,site=quora.com
+*blog*$downrank=1
