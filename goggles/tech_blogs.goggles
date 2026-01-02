@@ -1,8 +1,8 @@
-! name: Health - Official Sources
-! description: Boosts official government and major public health orgs for health-related searches.
+! name: Tech blogs
+! description: Rerank results to boost content on tech blogs. List of tech blogs drawn from several sources (blogsurf.io, refined.blog, et al), and not vetted or endorsed by Brave.
 ! public: true
-! author: Kasra Darvishi
-! avatar: #16a34a
+! author: Goggles 101
+! avatar: #9244e0
 
 $discard
 $downrank,site=medium.com
