@@ -7,5 +7,15 @@
 $discard
 $downrank,site=medium.com
 
-! --- Strong boosts: core public health sites ---
-$boost=5,site=fda.gov
+! --- Strong boosts: aesthetic device & technology manufacturers ---
+$boost=5,site=inmodemd.com
+$boost=5,site=allerganaesthetics.com
+$boost=5,site=galderma.com
+$boost=5,site=cynosure.com
+$boost=5,site=merzaesthetics.com
+$boost=5,site=almalasers.com
+$boost=5,site=cutera.com
+$boost=5,site=lumenis.com
+$boost=5,site=btlindustries.com
+$boost=5,site=soltamedical.com
+$boost=5,site=venusconcept.com
